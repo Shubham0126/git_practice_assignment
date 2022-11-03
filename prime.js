@@ -1,5 +1,8 @@
-function prime(){
-    for(let i=1;i<=Number;i++){
+
+function prime(number){
+    let count = 0;
+    for(let i=1;i<=number;i++){
+ 
         if(number%i==0){
             count++;
         }
@@ -9,9 +12,9 @@ function prime(){
     }
     return false
 }
-let ans = prime(47);
+let ans = prime(48);
 if(ans==true){
-    console.log(" prime number")
+    console.log(" Prime Number")
 }else{
-    console.log("not a prime number")
+    console.log("Not a Prime Number")
 }
