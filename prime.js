@@ -1,5 +1,5 @@
 function prime(){
-    for(let i=0;i<Number;i++){
+    for(let i=1;i<=Number;i++){
         if(number%i==0){
             count++;
         }
